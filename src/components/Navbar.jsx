@@ -19,8 +19,8 @@ export default function Navbar() {
   return (
     <Headroom>
       <div className="relative bg-[#245D51] text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between items-center py-6 px-4 sm:px-8">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <a href="/" className="text-2xl font-bold">
                 Skill <span className="text-[#CB8461]">Shoot</span>
