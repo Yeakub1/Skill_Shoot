@@ -1,11 +1,14 @@
 import { FaDiscord, FaTwitter } from "react-icons/fa";
-import image from "../assets/image.png";
 import { BsArrowUpRight, BsInstagram } from "react-icons/bs";
+import image from "../assets/image.png";
+import pen from "../assets/pen.png";
+import play from "../assets/play.png";
+import calender from "../assets/calender.png";
 
 export default function Hero() {
   return (
     <div className="bg-[#245D51] text-white">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4 relative">
         <div className="grid md:grid-cols-2 gap-10 h-[90vh]">
           <div className="flex flex-col">
             <h1 className="md:mt-20 xl:mt-20 mt-6 md:text-6xl text-3xl font-bold md:leading-[80px] leading-[45px] md:text-start text-center tracking-tight">
@@ -34,6 +37,23 @@ export default function Hero() {
               src={image}
               alt=""
             />
+            <div className="absolute md:hidden block">
+              <img
+                className="h-10 -mt-32 mr-72"
+                src={calender}
+                alt="calender icon"
+              />
+              <img
+                className="h-10 ml-72 mt-20"
+                src={play}
+                alt="play icon"
+              />
+              <img
+                className="h-10 -ml-4 -mt-[560px]"
+                src={pen}
+                alt="play icon"
+              />
+            </div>
           </div>
         </div>
       </div>

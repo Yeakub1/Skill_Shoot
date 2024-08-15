@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Partner from "./components/Partner";
@@ -16,6 +17,7 @@ export default function App() {
     <Services />
     <About />
     <SubBanner />
-    <Subscribe/>
+    <Subscribe />
+    <Contact/>
   </div>
 }
