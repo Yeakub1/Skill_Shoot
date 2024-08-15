@@ -23,7 +23,7 @@ export default function Services() {
               <p>CEO Skill Shoot</p>
             </div>
           </div>
-          <hr className="md:w-3/5 w-4/6 m-auto md:m-0 border-[2px]" />
+          <hr className="md:w-3/5 w-4/6 m-auto md:m-0 border-[1px]" />
           <div className="flex items-center gap-8 mt-10 justify-center md:justify-start">
             <div className="text-center">
               <h1 className="md:text-4xl text-2xl font-bold">100+</h1>
