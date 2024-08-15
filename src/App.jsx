@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Partner from "./components/Partner";
 import Services from "./components/Services";
 import SubBanner from "./components/Sub-Banner";
+import Subscribe from "./components/Subscribe";
 
 export default function App() {
   return <div className="">
@@ -15,5 +16,6 @@ export default function App() {
     <Services />
     <About />
     <SubBanner />
+    <Subscribe/>
   </div>
 }

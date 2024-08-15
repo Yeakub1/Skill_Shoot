@@ -3,7 +3,7 @@ import img3 from "../assets/img-3.png";
 
 export default function SubBanner() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:py-20 py-10">
+    <div className="max-w-7xl mx-auto px-4 md:py-0 py-10">
       <div className="bg-[#F2E7DB] md:h-44 h-80 w-full rounded-md relative flex items-center justify-center">
         <div className="grid md:grid-cols-2 gap-8 w-full">
           <div className="flex items-center justify-center">

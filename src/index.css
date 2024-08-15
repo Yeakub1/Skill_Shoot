@@ -3,15 +3,20 @@
 @tailwind utilities;
 
 body {
-font-family: "Poppins"
+  font-family: "Poppins";
 }
-.underline-text:after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    border-top: solid 4px #CB8461;
-    left: 0;
-    bottom: -10px;
-    border-radius: 50%;
-    height:8px;
+.underline-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: solid 4px #cb8461;
+  left: 0;
+  bottom: -10px;
+  border-radius: 50%;
+  height: 8px;
+}
+.MOST-POPULAR {
+  background-image: url(./assets/bg-img.png);
+  background-position: top right;
+  background-repeat: no-repeat;
 }
