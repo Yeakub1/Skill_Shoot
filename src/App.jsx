@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Partner from "./components/Partner";
 import Services from "./components/Services";
+import SubBanner from "./components/Sub-Banner";
 
 export default function App() {
   return <div className="">
@@ -12,6 +13,7 @@ export default function App() {
     <Partner />
     <Banner />
     <Services />
-    <About/>
+    <About />
+    <SubBanner />
   </div>
 }
