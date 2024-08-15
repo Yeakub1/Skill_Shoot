@@ -6,7 +6,7 @@ import dri from "../assets/dri.png";
 
 export default function Partner() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-20">
+    <div className="max-w-7xl mx-auto px-4 md:py-20 py-10">
       <div className="text-center">
         <h1 className="md:text-3xl text-lg font-semibold">
           Trusted more than <span className="text-[#CB8461]">100+</span> in the

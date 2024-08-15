@@ -6,9 +6,9 @@ import img2 from "../assets/img-2.png";
 import img3 from "../assets/img-3.png";
 import img4 from "../assets/img-4.png";
 
-const Banner = () => {
+export default function Banner() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-20">
+    <div className="max-w-7xl mx-auto px-4 md:py-20 py-6">
       <div className="bg-[#F2E7DB] h-56 w-full rounded-md relative">
         <div className="grid md:grid-cols-2 justify-between">
           <div className="md:ml-10">
@@ -60,5 +60,3 @@ const Banner = () => {
     </div>
   );
 };
-
-export default Banner;
