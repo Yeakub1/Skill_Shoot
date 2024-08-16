@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Headroom from "react-headroom";
+import { MdWindow } from "react-icons/md";
+import { VscChromeClose } from "react-icons/vsc";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +53,7 @@ export default function Navbar() {
             </div>
             <div className="md:hidden">
               <button onClick={toggleNavbar} className="text-3xl">
-                {isOpen ? "×" : "☰"}
+                {isOpen ? <VscChromeClose /> : <MdWindow />}
               </button>
             </div>
           </div>

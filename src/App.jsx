@@ -7,6 +7,7 @@ import Partner from "./components/Partner";
 import Services from "./components/Services";
 import SubBanner from "./components/Sub-Banner";
 import Subscribe from "./components/Subscribe";
+import TestimonialCarousel from "./components/Testimoni";
 
 export default function App() {
   return <div className="">
@@ -18,6 +19,7 @@ export default function App() {
     <About />
     <SubBanner />
     <Subscribe />
-    <Contact/>
+    <TestimonialCarousel/>
+    <Contact />
   </div>
 }

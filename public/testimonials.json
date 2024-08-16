@@ -1,0 +1,37 @@
+ [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "photo": "https://i.ibb.co/d5YdwK2/team-9.jpg",
+    "rating": 5,
+    "description": "Great service!"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "photo": "https://i.ibb.co/fSDJw0W/team-8.jpg",
+    "rating": 4,
+    "description": "Very satisfied with the product."
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "photo": "https://i.ibb.co/fS4rpzw/team-img-2-1.jpg",
+    "rating": 5,
+    "description": "Excellent experience overall."
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "photo": "https://i.ibb.co/8c9R2j0/team-2.jpg",
+    "rating": 4,
+    "description": "Good value for money."
+  },
+  {
+    "id": 5,
+    "name": "Charlie Davis",
+    "photo": "https://i.ibb.co/xX1p5fW/team-3.jpg",
+    "rating": 5,
+    "description": "Highly recommended!"
+  }
+]
