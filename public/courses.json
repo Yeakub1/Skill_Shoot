@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "video": "https://youtu.be/SqcY0GlETPk?si=FJVTGGOA-FX6QY3G",
+    "videos": "56",
+    "photo": "https://i.ibb.co/dMgZ37z/team-img-2-4.jpg",
+    "position": "Web Developer",
+    "name": "React Fundamentals",
+    "instructor": "John Doe",
+    "price": 49,
+    "enrolledUsers": 1234
+  },
+  {
+    "id": 2,
+    "name": "Advanced JavaScript",
+    "video": "https://youtu.be/R9I85RhI7Cg?si=knpRHuNqVTWtjr5l",
+    "videos": "72",
+    "photo": "https://i.ibb.co/mJk4Wqf/team-img-2-2.jpg",
+    "position": "It Manager",
+    "instructor": "Jane Smith",
+    "price": 59,
+    "enrolledUsers": 987
+  },
+  {
+    "id": 3,
+    "video": "https://youtu.be/PuOVqP_cjkE?si=LQeJDgZKsCgdPxvi",
+    "videos": "95",
+    "photo": "https://i.ibb.co/fS4rpzw/team-img-2-1.jpg",
+    "position": "Programmer",
+    "name": "Node.js Mastery",
+    "instructor": "Bob Johnson",
+    "price": 69,
+    "enrolledUsers": 765
+  },
+  {
+    "id": 4,
+    "video": "https://youtu.be/phWxA89Dy94?si=1U3pzhMxuBVfYiyw",
+    "videos": "78",
+    "photo": "https://i.ibb.co/8YjtBTQ/team-1.jpg",
+    "position": "Designger",
+    "name": "CSS Flexbox & Grid",
+    "instructor": "Alice Brown",
+    "price": 39,
+    "enrolledUsers": 2345
+  },
+  {
+    "id": 5,
+    "video": "https://youtu.be/nhBVL41-_Cw?si=N1-XE5CBaZILwXs1",
+    "videos": "98",
+    "photo": "https://i.ibb.co/d5YdwK2/team-9.jpg",
+    "position": "It Exparte",
+    "name": "Vue.js for Beginners",
+    "instructor": "Charlie Wilson",
+    "price": 54,
+    "enrolledUsers": 543
+  },
+  {
+    "id": 6,
+    "video": "https://youtu.be/mkv5mxYu0Wk?si=cOXLzGuIcF5Hi_Yo",
+    "videos": "46",
+    "photo": "https://i.ibb.co/xX1p5fW/team-3.jpg",
+    "position": "Programmer",
+    "name": "Python Data Science",
+    "instructor": "Eva Garcia",
+    "price": 79,
+    "enrolledUsers": 1876
+  },
+  {
+    "id": 7,
+    "video": "https://youtu.be/Pj0neYUp9Tc?si=qpxXW5JVfUJGQmRD",
+    "videos": "123",
+    "photo": "https://i.ibb.co/GpXWgbR/photo-4a.jpg",
+    "position": "Dev Ops",
+    "name": "Machine Learning Basics",
+    "instructor": "David Lee",
+    "price": 89,
+    "enrolledUsers": 1098
+  }
+]
