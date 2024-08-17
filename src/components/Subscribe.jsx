@@ -14,7 +14,7 @@ export default function Subscribe() {
       </div>
       <div className="md:px-16 md:mt-20">
         <div className="grid md:grid-cols-3 justify-evenly">
-          <div className="md:w-5/6 p-5 md:mt-9 order-2 md:order-1 mt-20">
+          <div className="md:w-5/6 p-5 md:mt-9 order-2 md:order-1 mt-20 hover:bg-[#245D51] hover:text-white rounded-3xl transition-all duration-300">
             <div className="flex items-end">
               <h1 className="text-4xl font-bold">$50</h1>
               <p>/ 1 month</p>
@@ -58,7 +58,7 @@ export default function Subscribe() {
               </button>
             </div>
           </div>
-          <div className="md:w-5/6 p-5 mt-12 order-3 md:order-3">
+          <div className="md:w-5/6 p-5 mt-12 order-3 md:order-3 hover:bg-[#245D51] hover:text-white rounded-3xl transition-all duration-300">
             <div className="flex items-end">
               <h1 className="text-4xl font-bold">$200</h1>
               <p>/ 12 month</p>

@@ -1,10 +1,16 @@
+import { useEffect } from "react";
 import icon from "../assets/icon.png";
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import icon3 from "../assets/icon3.png";
 import icon4 from "../assets/icon4.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Services() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
       <div className="grid md:grid-cols-2 gap-8">
@@ -38,7 +44,12 @@ export default function Services() {
         <div className="md:mt-0 mt-10 text-center md:text-start">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="py-7 md:py-0">
-              <img className="m-auto md:m-0" src={icon1} alt="" />
+              <img
+                data-aos="zoom-in"
+                className="m-auto md:m-0"
+                src={icon1}
+                alt=""
+              />
               <h1 className="py-4 text-xl font-semibold text-[#245D51]">
                 Material Limitations
               </h1>
@@ -48,7 +59,12 @@ export default function Services() {
               </p>
             </div>
             <div className="">
-              <img className="m-auto md:m-0" src={icon2} alt="" />
+              <img
+                data-aos="zoom-in"
+                className="m-auto md:m-0"
+                src={icon2}
+                alt=""
+              />
               <h1 className="py-4 text-xl font-semibold text-[#245D51]">
                 Unprofessional Mentor
               </h1>
@@ -58,7 +74,12 @@ export default function Services() {
               </p>
             </div>
             <div className="py-7 md:py-0 md:mt-16">
-              <img className="m-auto md:m-0" src={icon3} alt="" />
+              <img
+                data-aos="zoom-in"
+                className="m-auto md:m-0"
+                src={icon3}
+                alt=""
+              />
               <h1 className="py-4 text-xl font-semibold text-[#245D51]">
                 Video Quality
               </h1>
@@ -68,7 +89,12 @@ export default function Services() {
               </p>
             </div>
             <div className="md:mt-16">
-              <img className="m-auto md:m-0" src={icon4} alt="" />
+              <img
+                data-aos="zoom-in"
+                className="m-auto md:m-0"
+                src={icon4}
+                alt=""
+              />
               <h1 className="py-4 text-xl font-semibold text-[#245D51]">
                 High Price
               </h1>

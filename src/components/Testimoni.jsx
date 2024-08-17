@@ -73,8 +73,8 @@ export default function TestimonialCarousel() {
                 key={testimonial.id}
                 className={`w-full md:w-1/3 p-6 flex flex-col items-center transition-all duration-300 ${
                   (!isMobile && i === 1) || isMobile
-                    ? "bg-white scale-105 z-10 rounded-xl border-b-[12px] border-[#245D51]"
-                    : "scale-95 border-transparent"
+                    ? "bg-white scale-105  rounded-xl border-b-[12px] border-[#245D51]"
+                    : "scale-95 border-transparent hover:bg-[#245D51] hover:text-white hover:rounded-xl"
                 }`}
               >
                 <img

@@ -4,7 +4,7 @@ import { LuUser2 } from "react-icons/lu";
 import img2 from "../assets/img-2.png";
 import img3 from "../assets/img-3.png";
 
-const CourseSlider = () => {
+export default function CourseSlider() {
   const [courses, setCourses] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(3);
@@ -174,6 +174,4 @@ const CourseSlider = () => {
       </div>
     </div>
   );
-};
-
-export default CourseSlider;
+}
