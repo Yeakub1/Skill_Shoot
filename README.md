@@ -1,8 +1,35 @@
-# React + Vite
+# Skill Shoot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Live Server Link: https://skill-shoot.vercel.app
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</br>
+
+Use Technology
+
+React.js, </br>
+Tailwind CSS, </br>
+AOS Animation, </br>
+
+</br>
+
+Functionalities:
+
+The hero section has an overview of the entire site. </br>
+Trusted client, Our services, Our purpose. </br>
+Popular courses, Subscribe plan, Client review.
+</br></br>
+
+- At first clone my GitHub repo. then install all the packages.
+- To install all the packages. go to the terminal and command
+
+```npm
+  npm i
+```
+</br>
+- After Installing all the packages. run npm run dev to start the site.
+
+```npm
+npm run dev
+```
+
