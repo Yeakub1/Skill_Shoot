@@ -46,7 +46,7 @@ const CourseSlider = () => {
   };
 
   return (
-    <div className="bg-[#245D51] text-white py-20">
+    <div id="course" className="bg-[#245D51] text-white py-20">
       <div className="max-w-7xl mx-auto px-4 relative">
         <div className="text-center md:mb-20 mb-10">
           <h1 className="md:text-4xl text-xl font-semibold ">
@@ -160,13 +160,13 @@ const CourseSlider = () => {
           </div>
           <button
             onClick={prevSlide}
-            className="absolute top-1/2 md:left-7 -left-1 transform -translate-y-1/2 bg-white text-black rounded-full px-5 py-5 shadow-md hover:bg-[#245D51] transition-colors"
+            className="absolute top-1/2 md:left-7 left-4 transform -translate-y-1/2 bg-white text-black rounded-full md:px-5 md:py-5 px-2 py-2 shadow-md hover:bg-[#245D51] transition-colors"
           >
             <FaArrowLeft />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute top-1/2 md:right-8 -right-1 transform -translate-y-1/2 hover:bg-[#CB8461] text-white rounded-full px-5 py-5 shadow-md bg-[#245D51] transition-colors border-white border-[5px]"
+            className="absolute top-1/2 md:right-8 right-4 transform -translate-y-1/2 hover:bg-[#CB8461] text-white rounded-full md:px-5 md:py-5 px-2 py-2 shadow-md bg-[#245D51] transition-colors border-white border-[5px]"
           >
             <FaArrowRight />
           </button>

@@ -2,21 +2,25 @@ import { LuUser2, LuUserCheck2 } from "react-icons/lu";
 import image from "../assets/about-Image.png";
 import { BiVideoRecording } from "react-icons/bi";
 import { GoPlay } from "react-icons/go";
+import vectorline from "../assets/vector-line.png";
 
 export default function About() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:py-20 py-10">
+    <div id="about" className="max-w-7xl mx-auto px-4 md:py-20 py-10">
       <div className="grid md:grid-cols-2 justify-between">
         <div className="hidden md:block">
           <img src={image} alt="imges" />
         </div>
         <div className="">
-          <h1 className="md:mt-20 xl:mt-20 mt-6 md:text-6xl text-3xl font-bold">
-            Let us{" "}
-            <span className="relative underline-text text-[#245D51]">
-              Skill Shoot
-            </span>
+          <h1 className="md:mt-20 xl:mt-20 mt-6 md:text-5xl text-2xl font-bold">
+            Let us <span className="text-[#245D51]">Skill Shoot</span>
           </h1>
+          <img
+            className="absolute md:ml-40 md:w-64 w-32 ml-20"
+            src={vectorline}
+            alt="vector image"
+            draggable="false"
+          />
           <p className="leading-8 mt-10 md:w-5/6 w-full">
             We are a company engaged in education with the aim of improving the
             skills of many people and so that younger people can reach the

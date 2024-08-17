@@ -43,19 +43,25 @@ export default function Contact() {
             Skill <span className="text-[#CB8461]">Shoot</span>
           </a>
           <div className="flex flex-col items-center gap-6 order-first md:order-last md:flex-row text-[#808080] ">
-            <a href="/" className="hover:text-white hover:font-semibold">
+            <a href="#home" className="hover:text-white hover:font-semibold">
               Home
             </a>
-            <a href="/" className="hover:text-white hover:font-semibold">
+            <a href="#course" className="hover:text-white hover:font-semibold">
               Course
             </a>
-            <a href="/" className="hover:text-white hover:font-semibold">
+            <a
+              href="#subscribe"
+              className="hover:text-white hover:font-semibold"
+            >
               Subscribe
             </a>
-            <a href="/" className="hover:text-white hover:font-semibold">
+            <a href="#about" className="hover:text-white hover:font-semibold">
               About
             </a>
-            <a href="/" className="hover:text-white hover:font-semibold">
+            <a
+              href="#testimoni"
+              className="hover:text-white hover:font-semibold"
+            >
               Testimoni
             </a>
           </div>

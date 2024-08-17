@@ -2,7 +2,7 @@ import Check from "./Shared/Check";
 
 export default function Subscribe() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:py-24">
+    <div id="subscribe" className="max-w-7xl mx-auto px-4 md:py-24">
       <div className="text-center">
         <h1 className="md:text-4xl text-2xl font-semibold">
           <span className="text-[#CB8461]">Subscribe</span> with us now

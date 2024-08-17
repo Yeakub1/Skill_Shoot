@@ -51,7 +51,7 @@ export default function TestimonialCarousel() {
   }
 
   return (
-    <div className="bg-[#F8F8F8]">
+    <div id="testimoni" className="bg-[#F8F8F8]">
       <div className="max-w-7xl mx-auto px-4 md:py-20 py-10 relative">
         <div className="absolute md:hidden block">
           <img className="h-7" src={img4} alt="" />
